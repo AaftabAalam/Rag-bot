@@ -22,8 +22,8 @@ Before running the application, ensure that you have the following software inst
 ### Step 1: Clone the Repository
 Clone this repository to your local machine.
 ```bash
-git clone https://github.com/yourusername/mistral-openorca-pdf-chatbot.git
-cd mistral-openorca-pdf-chatbot
+git clone https://github.com/AaftabAalam/Rag-bot.git
+cd Rag-bot
 ```
 
 ### Step 2: Set Up Ollama
@@ -102,14 +102,8 @@ Open your web browser and go to `http://localhost:8501` to access the applicatio
 - **Docker Issues**: If running in Docker, ensure that the Docker container can communicate with the local Ollama service. The Ollama service must be started on the host machine.
 
 ## Limitations
-- **PDF Text Extraction**: The text extraction is basic and may not handle complex layouts, images, or tables in PDFs.
 - **Response Quality**: The quality of responses depends on the context extracted from the PDFs and the capabilities of the Mistral-OpenOrca model.
 - **Local Ollama Dependency**: The application relies on Ollama being set up and running on the local machine.
-
-## Future Enhancements
-- **Enhanced Text Extraction**: Improve text extraction to handle complex PDF layouts, images, and tables.
-- **Advanced Search**: Implement more sophisticated document search techniques, such as semantic search, for better context retrieval.
-- **Model Flexibility**: Allow users to select from different language models available through Ollama.
 
 ## Contributing
 Contributions are welcome! Please submit a pull request or open an issue to suggest improvements or report bugs.
